@@ -14,3 +14,5 @@ print("umur anda adalah :", umur)
 pertanyaan_pacar = bool(int(input('apakah kamu suka waguri jika iya ketik 1 jika tidak kerik 0')))
 
 print(pertanyaan_pacar)
+
+#-Irfan secara difault input dair kita bertipe string 
