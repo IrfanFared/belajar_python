@@ -23,10 +23,12 @@ e = 1
 
 opeasi_sama_dengan = c == d #ini memeriksa apakah isi kedua variabel sama atau tidak
 operaso_is = c is d #Membandingkan apakah dua variabel merujuk ke objek yang sama di memori
+operaso_is_not = c is d #Membandingkan apakah dua variabel merujuk ke objek yang sama di memori
                     #Memeriksa apakah keduanya adalah objek yang identik
 
 print(opeasi_sama_dengan)
 print(operaso_is)
+print(operaso_is_not)
 
 #mencoba  mendapatkana alama memori(addres) varibel 
 # outpunya  alamat memori (addres) dari varibel akan sama tapi ada pengecualian Tipe Data Mutable (Seperti list, dict, set)
