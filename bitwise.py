@@ -45,3 +45,18 @@ print(f"a ^ b =   {format(c,'08b')} ({c})")
 # a =       00001100 (12)
 # b =       00001010 (10)
 # a ^ b =   00000110 (6)
+
+#1. Shift Right (>>)
+#operator ini menggeser bit angka ke kanan. Setiap pergeseran ke kanan menghilangkan bit paling kanan dan menambahkan 0 di posisi paling kiri. 
+# Angka biner dari 8 adalah 1000
+angka = 8  # biner: 1000
+hasil = angka >> 2  # Geser 2 bit ke kanan
+print("Hasil Shift Right:", hasil)  # Output: 2 (biner: 10)
+
+#2. Shift Left (<<)
+#Operator ini menggeser bit angka ke kiri. Setiap pergeseran ke kiri menambahkan 0 di posisi paling kanan.
+
+# Angka biner dari 3 adalah 11
+angka = 3  # biner: 11
+hasil = angka << 2  # Geser 2 bit ke kiri
+print("Hasil Shift Left:", hasil)  # Output: 12 (biner: 1100)
