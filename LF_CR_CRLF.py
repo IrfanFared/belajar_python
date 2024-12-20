@@ -47,4 +47,5 @@ print(teks_cr)
 # Contoh penggunaan CRLF (\r\n)
 teks_crlf = "Baris pertama\r\nBaris kedua"
 print(teks_crlf)
+ 
 
