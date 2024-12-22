@@ -27,3 +27,15 @@ print(cek_status_apakah_string_x_tidak_ada_di_variabelnamalengkap)
  
 #mengulang string yang sama
 print("Violet istrinya Irfan\n"*12)
+
+#indexing
+indexing = "index 2" "  "+ nama_lengkap[2] #kalo ini dimulai dari angka 0
+indexing_jika_mines = "index -2" "  "+ nama_lengkap[-2] #jika mines dimulai dari belakan
+indexing_dari_n_ke_n = "index dari 0 samapi 6" "  " +nama_lengkap[0:6] # di python titik 2 arti "sampai"
+
+print(indexing_jika_mines)
+print(indexing)
+print(indexing_dari_n_ke_n)
+
+indexing_dengan_jeda = nama_lengkap[1:3:5]
+print(indexing_dengan_jeda)

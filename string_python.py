@@ -67,3 +67,7 @@ Halo kid
 ini adalah foler foto papah sama mamah violet waktu muda c\foto waktu sma\
 """
 )
+
+
+#indexing
+indexing = "index 2" + nama
