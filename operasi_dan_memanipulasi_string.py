@@ -39,3 +39,15 @@ print(indexing_dari_n_ke_n)
 
 indexing_dengan_jeda = nama_lengkap[1:3:5]
 print(indexing_dengan_jeda)
+
+#Fungsi ASCII dalam pemrograman Python merujuk pada penggunaan kode American Standard Code for Information Interchange, 
+#yang merupakan standar untuk mewakili karakter dalam bentuk numerik. 
+# Dalam konteks Python, ada fungsi bawaan yang disebut ascii(), yang berfungsi untuk mengonversi objek menjadi representasi string yang hanya mengandung karakter ASCII, menggantikan karakter non-ASCII dengan urutan escape.
+ascii_code = ord("I")  # Fungsi ord() mengembalikan nilai kode ASCII dari karakter "I"
+print(str(ascii_code)) # Fungsi str() mengubah nilai numerik menjadi string, kemudian mencetaknya
+
+#operator dalam bentuk method
+
+nama_istri_Irfan = "violet Claudia Clasrisa"
+menghitung_jumlah_charakter_O = nama_istri_Irfan.count("a")
+print(str(menghitung_jumlah_charakter_O))
