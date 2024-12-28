@@ -79,4 +79,26 @@ Biodata = f"Ini adalah biodataku Nama {Nama} No absen {No_absen} Nilai {nilai:01
 uang = -1023.23552
 Biodata = f"Ini adalah biodataku Nama {Nama} No absen {No_absen} Uang {uang:+.2f}" #output = -1023.24
 print(Biodata)
+ 
 
+ # didalam bahsa pemograman python kita bisa memformat persen dengan  cara dengan cara menambahkan %% setelah variabel
+ #contoh 
+persen = 0.85
+Biodata = f"Ini adalah biodataku Nama {Nama} No absen {No_absen} Persen {persen:.2%}" #output = 85.00%
+print(Biodata)
+
+# didalama bahasa pemograman python kita bisa melakukan operasi aritmatika di dalama kurung kurungkurwal {}
+#contoh
+a = 12 
+b = 3
+jumlah = f"{a} + {b} = {a+b}" #output = 12 + 3 = 15
+print(jumlah)
+
+# didalam bahasa pemograman python juga ada formata binary, octal, dan hexadesimal
+#contoh pemgunaan setip format tersebut 
+angka = 255 
+print(f"Binary : {angka:b}") #output = 11111111 
+print(f"Octal : {angka:o}") #output = 377
+print(f"Hexadesimal : {angka:x}") #output = ff  
+#contoh penggabungan    
+print(f"Binary : {angka:b} Octal : {angka:o} Hexadesimal : {angka:x}") #output = Binary : 11111111 Octal : 377 Hexades
