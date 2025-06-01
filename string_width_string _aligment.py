@@ -27,3 +27,5 @@ text = """Irfan adalaha oranga yanga sangant tampan dan ganteng.
 di sukai banyak oranga jadinya dia jadi sombong dan angkuh.
 tapi dia tetap baik dan ramah kepada semua oranga"""
 print(textwrap.fill(text, width=50))
+
+#text wrap adalah fungsi yang digunakan untuk membungkus teks menjadi beberapa baris dengan lebar tertentu
