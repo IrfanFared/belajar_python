@@ -13,8 +13,8 @@ print(a >= 10) # True (lebih dari sama dengan)
 print(b <= 15) # False (kurang dari sama dengan)
 
 # -Irfan literal adalah representasi nilai varibel tetap 
-#-irfan jadi terkadan ada yang membuayt kita bingung yaiu operaso koperasi sama dengan denga is
-#-jadi ada sebuha perbedaan dari keduanya 
+#-irfan jadi terkadan ada yang membuat kita bingung yaiu operasi komparasi sama dengan denga is
+#-jadi ada sebuah perbedaan dari keduanya 
 print("variabel")
 c = [1,2,3,4]
 d = [1,2,3,4]
@@ -30,7 +30,7 @@ print(opeasi_sama_dengan)
 print(operaso_is)
 print(operaso_is_not)
 
-#mencoba  mendapatkana alama memori(addres) varibel 
+#mencoba  mendapatkana alamat memori(addres) varibel 
 # outpunya  alamat memori (addres) dari varibel akan sama tapi ada pengecualian Tipe Data Mutable (Seperti list, dict, set)
 print(hex(id(f)))
 print(hex(id(e)))

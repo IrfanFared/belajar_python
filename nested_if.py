@@ -18,3 +18,29 @@ if gaji > 1000000:
         print("gaji anda di atas rata-rata tinggi")
 else:
         print("gaji anda di bawah rata-rata")
+
+nilai = 85
+
+if nilai >= 70:
+    if nilai >= 90:
+        print("A")
+    elif nilai >= 80:
+        print("B")
+    else:
+        print("C")
+else:
+    if nilai >= 50:
+        print("D")
+    else:
+        print("E")
+
+#if kondisi_utama:
+    # Blok kode jika kondisi_utama True
+#    if kondisi_sub1:
+        # Blok kode jika kondisi_utama DAN kondisi_sub1 True
+ #   elif kondisi_sub2:
+        # Blok kode jika kondisi_utama True, kondisi_sub1 False, tapi kondisi_sub2 True
+#    else:
+        # Blok kode jika kondisi_utama True, tapi kondisi_sub1 dan sub2 False
+#else:
+    # Blok kode jika kondisi_utama False
