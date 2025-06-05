@@ -53,3 +53,5 @@ print(str(ascii_code)) # Fungsi str() mengubah nilai numerik menjadi string, kem
 nama_istri_Irfan = "violet Claudia Clasrisa"
 menghitung_jumlah_charakter_O = nama_istri_Irfan.count("a")
 print(str(menghitung_jumlah_charakter_O))
+
+# recal
