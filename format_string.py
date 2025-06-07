@@ -1,19 +1,17 @@
-#Format string dalam bahasa Python adalah teknik yang digunakan untuk menggabungkan variabel atau nilai dengan teks, 
-# memungkinkan pembuatan string yang lebih dinamis dan mudah dibaca.
-#  Ada beberapa metode untuk melakukan format string, masing-masing dengan sintaks dan kegunaan yang berbeda.
+"""  Ada beberapa metode untuk melakukan format string, masing-masing dengan sintaks dan kegunaan yang berbeda.
 
-# Operator %
-# Operator % dalam bahasa pemrograman Python adalah metode untuk melakukan format string,
-#  yang dikenal sebagai string-formatting operator. 
-# Metode ini memungkinkan penggabungan variabel atau nilai ke dalam string dengan menggunakan placeholder yang ditandai dengan simbol %. 
-# Ini adalah salah satu cara tertua untuk melakukan format string di Python, mirip dengan fungsi printf di bahasa C.
+ Operator %
+ Operator % dalam bahasa pemrograman Python adalah metode 
+ untuk melakukan format string,yang dikenal sebagai string-formatting operator. 
+ Metode ini memungkinkan penggabungan variabel atau nilai ke dalam string dengan menggunakan placeholder yang ditandai dengan simbol %. 
+ Ini adalah salah satu cara tertua untuk melakukan format string di Python, mirip dengan fungsi printf di bahasa C.
 
-# Operator % menggunakan format specifiers untuk menunjukkan jenis data yang akan disisipkan ke dalam string. Beberapa format specifiers yang umum digunakan meliputi:
-# %s: untuk menyisipkan string.
-# %d: untuk menyisipkan bilangan bulat (integer).
-# %f: untuk menyisipkan bilangan pecahan (float).
-# %x: untuk menyisipkan bilangan dalam format heksadesimal.
-# %b: untuk menyisipkan bilangan dalam format biner.
+ Operator % menggunakan format specifiers untuk menunjukkan jenis data yang akan disisipkan ke dalam string. Beberapa format specifiers yang umum digunakan meliputi:
+ %s: untuk menyisipkan string.
+ %d: untuk menyisipkan bilangan bulat (integer).
+ %f: untuk menyisipkan bilangan pecahan (float).
+ %x: untuk menyisipkan bilangan dalam format heksadesimal.
+ %b: untuk menyisipkan bilangan dalam format biner."""
 
 #contoh 
 
