@@ -1,3 +1,6 @@
+#kata kunci enumerate
+# digunakan untuk mengembalikan indeks dari elemen yang sedang diulang.# Ini sangat berguna ketika kita ingin mengetahui posisi elemen dalam daftar atau koleksi lainnya.
+
 
 daftar_biodata = []
 
