@@ -30,3 +30,4 @@ print(data_nilai_reversed) # ini akan membalikan urutan pada list
 # untuk mengurutkan data pada list
 data_nilai_urut = sorted(data_nilai, reverse=True) # dengan syntax sorted(nama variabel, reverse=True)
 print(data_nilai_urut) # ini akan mengembalikan nilai list yang sudah diurutkan dari terbesar ke terkecil   
+

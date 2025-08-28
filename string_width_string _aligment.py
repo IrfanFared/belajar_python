@@ -23,9 +23,14 @@ umur saya adalah {umur}
 """)
 
 import textwrap
-text = """Irfan adalaha oranga yanga sangant tampan dan ganteng.
+text = """Irfan adalah orang yanga sangat tampan dan ganteng.
 di sukai banyak oranga jadinya dia jadi sombong dan angkuh.
 tapi dia tetap baik dan ramah kepada semua oranga"""
-print(textwrap.fill(text, width=50))
+print(textwrap.fill(text, width=100))
 
 #text wrap adalah fungsi yang digunakan untuk membungkus teks menjadi beberapa baris dengan lebar tertentu
+
+text= "halo  semua nama saya irfan.Hari ini saya mencoba untuk selalu bertanya ketika dosen menjelaskan materi"
+print(textwrap.fill(text,width = 10))
+
+print("Irfan pacarnya violet evergarden \n irfan ganteng gg cuy")

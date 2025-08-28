@@ -1,6 +1,6 @@
 # -Irfan di dalama bahasa pemograman python ada tipe data int alias angka satuan
 data_integer = 1
-print(type(data_integer)) #-Irfan ini adalah cara di dalama bahasa python jika ingi mengetahui type data apa di  varibel yang kita panggil
+print(type(data_integer)) #-Irfan ini adalah cara di dalama bahasa python jika ingin mengetahui type data apa di  varibel yang kita panggil
 print("data :", data_integer, "adalah tipe data:", type(data_integer))
 
 
@@ -9,8 +9,8 @@ data_float = 1.2 # tipe data float sama aja kaya di flutter yaitu double
 print(type(data_float))
 
 #tipe data string : kumpulan katakter  bahasa latin 
-data_strin = "irfan ganteng"
-print(type(data_strin))
+data_string = "irfan ganteng"
+print(type(data_string))
 
 #tipe data bollean = biner true atau flase (boplean)
 data_bollean = True

@@ -1,15 +1,15 @@
 from typing import Union
 
 #type  hint (type anotation) adalah sebuah fitu di python yang memukinkan kita untuk
-# - menambahkan keteranagan pada parameter  atau memberi tanda tipe data parameter
+# - menambahkan keterangan pada parameter  atau memberi tanda tipe data parameter
  # type hint anotation juga digunakan untu return value
 
 # ini adalah sebuah contoh dari type hint 
 
 def biodata (nama : str, nomer : int) -> str: # sebuah tanda pana tidak  tapi lebih baik dikasi saja karean memudah python dan  pembaca memahami kode
-            return f"halo nama saya {nama} dan {nomer} " # setelah pana dikasih none jika tidak mengmbaikan nilai
+            return f"halo nama saya {nama} dan {nomer} " # setelah panah dikasih none jika tidak mengembalikan  nilai
 
-# fungsi type anotatio 1.memudahkan untuk debug dan pembacaan bagi komputer,2.memudahkan untu kerja tim
+# fungsi type anotation 1.memudahkan untuk debug dan pembacaan bagi komputer,2.memudahkan untu kerja tim
 
 
 # type hint di python bisa juga untuk memberi tanda pada parameter dengan lebih dari dua tipe data

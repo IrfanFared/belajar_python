@@ -1,4 +1,4 @@
-#string merupakan  kumpulan karakter yang di apit ''  atau ""
+#string merupakan  kumpulan karakter yang di a''  di apit  ""
 
 #cara membuata string
 nama = "Irfan"

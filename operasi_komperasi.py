@@ -39,3 +39,11 @@ print(hex(id(c)))
 print(hex(id(d)))
 
 #Kata kunci hex dalam bahasa pemrograman Python adalah sebuah fungsi built-in yang digunakan untuk mengonversi angka bulat (integer) menjadi representasi string dalam format heksadesimal. Format heksadesimal adalah sistem bilangan berbasis 16 yang sering digunakan dalam pemrograman dan pengolahan data.
+
+nilai= 0
+
+while nilai <10:
+    nilai = nilai + 1
+    print(nilai)
+
+

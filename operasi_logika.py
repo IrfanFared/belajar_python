@@ -2,7 +2,7 @@
 
 a = True
 b = False
-#mengembalikan nilai true jika  kedua kondisi true 
+#mengembalikan nilai true jika  kedua kondisi true
 #jika salah satu  false  hasilnya false 
 print(a and b,"ini namanya logika dan ")
 

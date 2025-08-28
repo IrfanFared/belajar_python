@@ -7,7 +7,7 @@ print("nilai a =", a);  #ini adalaha cara di mana bahasa pemoograman python mene
 # didalam bahasa pemograman python ada aturan khusus dalam penamaan variabel
 # 1.nama variabele tidak boleh di dahulu underscore
 # 2.nama varibale tidak boleh di dahului angka
-# case sensitive di mana huruf anka besar dan kecil adalah dua varianel yang berbeda
+# case sensitive di mana huruf anka besar dan kecil adalah dua variabe;l yang berbeda
 # seperti ular dan Ular ini  adalah dua variabel yang berbeda
 
 
