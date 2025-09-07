@@ -25,7 +25,7 @@ print(a)
 #modulus assigment
 b = 12
 b %= 5
-print(b)
+print(b,"modulus")
 
 #pembagian integer asigment
 x = 10

@@ -1,54 +1,31 @@
-# Definition for singly-linked list.
-class ListNode:
-    def __init__(self, val=0, next=None):
-        self.val = val
-        self.next = next
+"""
+Nama  : Muhammad Irfan pratama
+NIM   : 25031554135
+kelas : 2025A
 
-class Solution:
-    def mergeTwoLists(self, list1: ListNode, list2: ListNode) -> ListNode:
-        dummy = ListNode()
-        tail = dummy
+Maaf sebelumnya bu atik 
+saya mengerjakan tugas saya sekalian eksperimen if else mengunakan for in(iterasi)
 
-        while list1 and list2:
-            if list1.val < list2.val:
-                tail.next = list1
-                list1 = list1.next
-            else:
-                tail.next = list2
-                list2 = list2.next
-            tail = tail.next
+"""
 
-        if list1:
-            tail.next = list1
-        elif list2:
-            tail.next = list2
-
-        return dummy.next
+list_empat_angka_yang_memenuhi_4_kondisi = [1,3,2,12]
 
 
-# Helper: Convert Python list -> Linked List
-def build_linked_list(arr):
-    dummy = ListNode()
-    curr = dummy
-    for num in arr:
-        curr.next = ListNode(num)
-        curr = curr.next
-    return dummy.next
-
-# Helper: Convert Linked List -> Python list (to check result)
-def linked_list_to_list(node):
-    result = []
-    while node:
-        result.append(node.val)
-        node = node.next
-    return result
-
-
-# Example usage:
-list1 = build_linked_list([1,2,4])
-list2 = build_linked_list([1,3,4])
-
-sol = Solution()
-merged = sol.mergeTwoLists(list1, list2)
-
-print(linked_list_to_list(merged))  # Output: [1, 1, 2, 3, 4, 4]
+for i in list_empat_angka_yang_memenuhi_4_kondisi:
+    value = i
+    if value %2:
+        if value**3 != 27 :
+            value = value + 4 #assigment 1
+            print(f"nilai {value} memenuhi kondisi pertama")
+        else:
+            value = value / 1.5 #assigment 2
+            print(f"nilai {value} memenuhi kondisi kedua")
+    else:
+        if value <= 10:
+            value = value * 2 #assigment 3
+            print(f"nilai {value} memenuhi kondisi ketiga")
+        else:
+            value = value - 2 # asigment 4
+            print(f"nilai {value} memenuhi kondisi keempat")
+            
+print(f"nilai angka yang memenuhi 4 kondisi if else di atas adalah {list_empat_angka_yang_memenuhi_4_kondisi} ")

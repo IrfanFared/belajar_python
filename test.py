@@ -1,24 +1,20 @@
-import timeit
+# password asli
+Pasword_asli = "irfan"
 
-# For loop - optimized iterator protocol
-def for_loop_test():
-    total = 0
-    for i in range(1000000):
-        total += i
-    return total
+# password tebakan
+pasword_tebakan = "irfan"
 
-# While loop equivalent
-def while_loop_test():
-    total = 0
-    i = 0
-    while i < 1000000:
-        total += i
-        i += 1
-    return total
+persen_kemiripan = 0
 
-# Benchmark results typically show for loop 15-20% faster
-for_time = timeit.timeit(for_loop_test, number=100)
-while_time = timeit.timeit(while_loop_test, number=100)
+# Menggunakan enumerate untuk mendapatkan indeks dan nilai sekaligus
+for indeks, char_asli in enumerate(Pasword_asli):
+    # Pastikan tebakan punya panjang yang sama atau lebih
+    if indeks < len(pasword_tebakan):
+        # Membandingkan karakter di indeks yang sama
+        if char_asli == pasword_tebakan[indeks]:
+            persen_kemiripan += 1
+    # Jika tebakan lebih pendek, berhenti
+    else:
+        break
 
-print(f"For loop: {for_time:.4f}s")
-print(f"While loop: {while_time:.4f}s")
+print(persen_kemiripan)
