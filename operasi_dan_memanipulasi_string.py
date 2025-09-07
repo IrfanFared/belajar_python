@@ -19,7 +19,7 @@ print(panjang_string)
 
 string_i = "I"
 cek_status_apakah_string_i_ada_di_variabelnamalengkap = string_i in nama_lengkap
-print(cek_status_apakah_string_i_ada_di_variabelnamalengkap)
+print(cek_status_apakah_string_i_ada_di_variabelnamalengkap,"p")
 
 #negasi
 string_x = "x"
