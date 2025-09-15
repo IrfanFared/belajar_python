@@ -21,9 +21,10 @@ matriks_mahasiswa = [
     ["Budi", 90, "B"],
     ["Siti", 70, "C"]
 ]       
-for mahasiswa in matriks_mahasiswa:
+for index, mahasiswa in enumerate(matriks_mahasiswa) :
       # mencetak data dengan spasi
-    print(mahasiswa)  # mencetak baris baru setelah setiap list
+      print(index)
+      print(mahasiswa)  # mencetak baris baru setelah setiap list
 
 """Kapan Nested List Berguna?
 Saat mengolah tabel data

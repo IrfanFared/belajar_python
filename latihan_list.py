@@ -19,6 +19,7 @@ while True:
      break
  
 print("progam selesai")
+print(daftar_biodata)
 
      
   
