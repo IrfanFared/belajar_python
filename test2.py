@@ -1,6 +1,2 @@
-nama = "muhammad irfan pratama"
-
-dumb = "hamma"
-
-cek = dumb in nama
-print(cek)
+angka = 1,2,3,2
+print(type(angka))
